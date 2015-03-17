@@ -1,0 +1,25 @@
+{
+  "name": "share-location",
+  "version": "0.0.0",
+  "description": "publish gps position to remote gpx file",
+  "main": "share-location.devel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanocudini/share-location.git"
+  },
+  "keywords": [
+    "gpx",
+    "gps",
+    "leaflet",
+    "ajax"
+  ],
+  "author": "Stefano Cudini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanocudini/share-location/issues"
+  },
+  "homepage": "https://github.com/stefanocudini/share-location"
+}
