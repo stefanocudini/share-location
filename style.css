@@ -1,0 +1,101 @@
+body,html {
+	margin: 0;
+	padding: 0;
+}
+input {
+	display: block;
+	height: 30px;
+	float: left;
+	margin:0;
+	padding: 0 6px;	
+	border: none;
+	border-radius: 0;
+	background-color: #ccc;
+	color: #666;
+	font-weight: bold;
+	font-size: 14px;
+	vertical-align: baseline;	
+	border: 1px solid #ccc;	
+}
+input[type=text] {
+	max-width: 70%;
+	background: #fff;
+	border: none;
+}
+input[type=submit] {
+	cursor: pointer;
+}
+#map {
+	position: absolute;
+	top:60px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	clear: both;
+}
+#loader {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	color: #a00;
+	height: 30px;
+	line-height: 30px;
+	background-color: #fc0;
+}
+.leaflet-control.leaflet-control-zoom {
+	margin-left: 2px;
+	margin-top: 2px;
+	box-shadow: none;
+	border: 2px solid rgba(0,0,0,0.2);
+}
+.leaflet-control.leaflet-control-zoom a {
+	width: 30px;	
+}
+.leaflet-control.leaflet-control-gps {
+	box-shadow: none;
+	border: 2px solid rgba(0,0,0,0.2);
+	margin-left: 2px;
+	margin-top: 2px;
+}
+.leaflet-control-gps .gps-button,
+.leaflet-control-gps .gps-button:hover {
+	width:30px;
+	height:30px;
+	background: url('gps-icon.png') no-repeat 4px 4px;
+}
+.leaflet-control-gps .gps-button.active,
+.leaflet-control-gps .gps-button.active:hover {
+	width:30px;
+	height:30px;
+	background: url('gps-icon.png') no-repeat 4px -48px;
+}
+
+.leaflet-control.gpxzoom {
+	cursor: pointer;
+	display:inline-block;
+	vertical-align:middle;
+	display: block;
+	width:30px;
+	height:30px;
+	background: url('icons.png') no-repeat #fff;
+	background-position: 5px 5px;
+	border-radius: 4px;		
+	color: #1978cf;
+	z-index:1000;
+	box-shadow: none;
+	border: 2px solid rgba(0,0,0,0.2);
+	margin-left: 2px;
+	margin-top: 2px;
+}
+.gpxzoom:hover  {
+	opacity: 0.8
+}
+
+input[type=submit] {
+	background: -moz-linear-gradient(top, #eee, #aaa);
+	background: -ms-linear-gradient(top, #eee, #aaa);
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#aaa));
+	background: -webkit-linear-gradient(top, #eee, #aaa);
+	background: -o-linear-gradient(top, #eee, #aaa);
+	background: linear-gradient(top, #eee, #aaa);
+}
