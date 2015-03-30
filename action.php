@@ -2,6 +2,9 @@
 
 #sleep(1);
 
+if(!isset($_GET['loc']) or !isset($_GET['track']))
+	die('no set params');
+
 require_once('config.php');
 require_once('geophp/geoPHP.inc');
 
