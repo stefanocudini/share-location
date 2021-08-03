@@ -1,6 +1,6 @@
 {
   "name": "share-location",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "publish gps position to remote gpx file",
   "main": "share-location.devel.js",
   "scripts": {
